@@ -40,6 +40,7 @@ README.md
 python3 -m venv .venv
 source .venv/bin/activate
 python -V
+```bash
 
 2a) CPU-only (simplest)
 

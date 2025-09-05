@@ -25,7 +25,7 @@ checkpoints/
 
 # plots & logs (generated)
 logs/
-*.png
+#*.png
 *.pdf
 *.svg
 *.log
