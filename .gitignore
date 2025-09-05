@@ -1,0 +1,40 @@
+# venvs
+.venv/
+env/
+venv/
+
+# python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+pip-wheel-metadata/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# data & checkpoints (generated)
+data/
+checkpoints/
+*.pt
+*.bin
+*.jsonl
+
+# plots & logs (generated)
+logs/
+*.png
+*.pdf
+*.svg
+*.log
+events.out.tfevents.*
+
+# pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# notebooks
+.ipynb_checkpoints/
