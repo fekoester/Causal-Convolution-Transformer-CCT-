@@ -105,3 +105,9 @@ python -m scripts.sample --ckpt checkpoints/owt_1pct/epoch1.pt --data-dir data/o
   --prompt "The purpose of life is" --max-new-tokens 120 --temperature 0.9 --top-p 0.9
 
 To run full OpenWebText, omit --subset. First pass will spend time tokenizing; subsequent runs reuse the saved .bin files.
+
+## Results
+
+Training the Causal Convolutional Transformer (CCT) with GPT-2-scale parameters on OpenWebText reaches a validation loss of ~2.9 after 2 epochs.
+
+![Training Loss Curve](assets/loss.png)
