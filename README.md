@@ -126,6 +126,6 @@ To run full OpenWebText, omit `--subset`. First pass will spend time tokenizing;
 
 ## Results
 
-Training the Causal Convolutional Transformer (CCT) with GPT-2-scale parameters on OpenWebText reaches a validation loss of ~2.9 after 2 epochs.
+Training the Causal Convolutional Transformer (CCT) with GPT-2-scale 85million parameters on OpenWebText reaches a validation loss of ~2.9 after 2 epochs.
 
 ![Training Loss Curve](assets/loss.png)
